@@ -42,16 +42,16 @@
 
 ### Linux (gcc)
 ```bash
-```gcc -o memory memory_demo.c```
+``````gcc -o memory memory_demo.c``````
 
 ### Windows (MinGW или MSVC)
 ```bash
-```gcc -o memory.exe memory_demo.c```
+``````gcc -o memory.exe memory_demo.c``````
 
 ### Использование/Запуск программы:
 ```bash
-```./memory_demo```      # Linux
-```memory_demo.exe ```   # Windows
+``````./memory_demo``````      # Linux
+``````memory_demo.exe ``````   # Windows
 
 ---
 
