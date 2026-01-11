@@ -38,6 +38,26 @@
 
 ---
 
+<<<<<<< HEAD
+=======
+## Установка и сборка
+
+### Linux (gcc)
+```bash
+``````gcc -o memory memory_demo.c``````
+
+### Windows (MinGW или MSVC)
+```bash
+``````gcc -o memory.exe memory_demo.c``````
+
+### Использование/Запуск программы:
+```bash
+``````./memory_demo``````      # Linux
+``````memory_demo.exe ``````   # Windows
+
+---
+
+>>>>>>> 63fda1886726d642b123d9688f6a49737c0821cc
 ### Общее для обеих ОС:
 - Используется стратегия отложенного выделения
 
@@ -46,6 +66,7 @@
 - Физическая память выделяется только при фактической записи
 
 - Освобождение памяти уменьшает оба показателя
+<<<<<<< HEAD
 
 ---
 
@@ -63,3 +84,5 @@ gcc -o memory.exe memory_demo.c
 ```bash
 ./memory_demo    # Linux
 memory_demo.exe  # Windows
+=======
+>>>>>>> 63fda1886726d642b123d9688f6a49737c0821cc
